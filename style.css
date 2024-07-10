@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+h1{
+    color: #fff;
+    text-align: center;
+}
+
+@media screen and (max-width: 620px){
+    #heading{
+        color:#fff;
+        background-color:black;
+        padding:10px;
+    }
+    #galley{
+        text-align: center;
+        margin: 20px;
+        background-color: blueviolet;
+    }
+    #container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: aqua;
+    }
+    .childs{
+        background-color: aquamarine;
+        color: antiquewhite;
+    }
+}
+    
+}
